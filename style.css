@@ -1,3 +1,32 @@
-body{
-  background-color: red;
+
+a{ /* Links */ }
+p{ /* Paragraphs */ }
+ul{ /* Unordered lists */ }
+li{ /* List items */ }
+
+body
+  {
+    background-color: hsla(95, 100%, 23%, 1);
+    font-size: 16px;
+    width: 100%
+  }
+h1
+  {
+    font-size: 2em;        /* = 32px */
+  }
+h2{
+    font-size: 1.5em;     /* = 24px */
+  }
+p
+{
+  width: 50%
 }
+blockquote
+  { background: black;
+    color: white;
+  }
+.date
+  {
+    color: white;
+    font-size: 4em;
+  }
