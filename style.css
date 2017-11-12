@@ -4,29 +4,47 @@ p{ /* Paragraphs */ }
 ul{ /* Unordered lists */ }
 li{ /* List items */ }
 
-body
-  {
-    background-color: hsla(95, 100%, 23%, 1);
+body{background-image: url(imagenes/WPP.jpg);
+    background-attachment: fixed;
     font-size: 16px;
-    width: 100%
-  }
-h1
-  {
+    }
+h1{
     font-size: 2em;        /* = 32px */
+    width: 1000px;
+    height: 200px;
+    background-color: white;
+    margin: 0px 0%;
+    padding: 20px;
+    border: 10px solid black;
   }
 h2{
-    font-size: 1.5em;     /* = 24px */
+    font-size: 2em;        /* = 32px */
+    width: 1000px;
+    height: 200px;
+    background-color: white;
+    margin: 20px 0%;
+    padding: 20px;
+    border: 10px solid black;
   }
-p
-{
-  width: 50%
-}
-blockquote
-  { background: black;
-    color: white;
-  }
-.date
-  {
+div{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 20px 0%;
+  padding: 20px;
+  border: 10px solid black;
+  float: left;
+   }
+.caja1{
+    position: static;
+    top:  auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+     }
+.date{
     color: white;
     font-size: 4em;
-  }
+    width: 500%;
+    height: 500%;
+     }
